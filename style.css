@@ -1,0 +1,28 @@
+body {
+  background-color: #ffffff;
+  background-image: radial-gradient(#12cc31 0.951px, transparent 0.951px),
+    radial-gradient(#444cf7 0.951px, #e5e5f7 0.951px);
+  background-size: 38px 38px;
+  background-position: 0 0, 19px 19px;
+}
+
+nav {
+  background-color: slategray;
+  padding: 5px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
+nav a {
+  color: purple;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: violet;
+}
